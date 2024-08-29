@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+} 
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 2;
+    display: flex;
+    padding: 1em;
+    border-radius: 1cm;
+    background-image: linear-gradient(to bottom right, rgb(19, 68, 215), rgb(184, 201, 226));
+}
+
+.leftcont {
+    background-color: rgba(9, 18, 30, 0.779);
+    flex: 2;
+    border-radius: 1cm;
+    align-items: center;
+    justify-content: center;  
+}
+
+.rightcont {
+    flex:1;
+    border-radius: 1cm;  
+}
+
+.top_items {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 225px;
+    background-color: rgba(237, 243, 249, 0.198);
+    border-radius: 0.5cm;
+}
+
+.mid_items{
+    display: flex;
+}
+
+.humidity{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 102px;
+    background-color: rgba(237, 243, 249, 0.198);
+    border-radius: 0.5cm;
+}
+
+.wind{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 102px;
+    background-color: rgba(237, 243, 249, 0.198);
+    border-radius: 0.5cm;
+}
+
+
+.info{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    background-color:rgba(237, 243, 249, 0.198);
+}
+#city{
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 30px;
+    width: 250px;
+    padding-left: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#search{
+    background-color: rgba(237, 243, 249, 0.198);
+    border: 0;
+    height: 30px;
+    width:35px;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#searchbtn{
+    color: rgba(137, 116, 116, 0.53);
+    background-color: rgba(9, 18, 30, 0.779);
+    transform: translateX(-220px);
+    border-radius: 10px;
+    size:5cm;
+
+}
+
+
