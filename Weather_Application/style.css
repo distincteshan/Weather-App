@@ -1,15 +1,20 @@
 body {
-    background-color: black;
     display: flex;
     flex-direction: column;
+    background-image: url("nature_background.jpg");
+    background-size: 100vw 100vh;
+    font-family: 'Lexend';
+
 } 
 
 .container {
+    opacity: 0.9;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
     width: 400px;
     margin-top: 50px;
+    margin-bottom: 20px;
     border-radius: 2;
     display: flex;
     padding: 1em;
@@ -66,45 +71,57 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px; 
-    
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgba(237, 243, 249, 0.198);
+    height: 40px;
+    padding: 4px 4px;
+    padding-left: 6px;
+    gap: 3px;
 }
 
-.info{
-    display: flex;
-    align-items: center;
-    background-color:rgba(237, 243, 249, 0.198);
-}
 #city{
-    border: none;
+    display: flex;
     outline: none;
     background: transparent;
-    height: 30px;
-    width: 250px;
-    padding-left: 30px;
-    text-align: center;
-    border-radius: 10px;
+    border: none;
+    width: 200px;
+    color: rgb(128, 128, 128);
+    font-weight: bold;
     font-size: large;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
 }
 
 #search{
     background-color: rgba(237, 243, 249, 0.198);
     border: 0;
-    height: 30px;
+    height: 38px;
     width:35px;
     border-radius: 10px;
-    justify-content: center;
     cursor: pointer;
+    color: rgb(212, 202, 202);
 }
 
 #searchbtn{
-    color: rgba(137, 116, 116, 0.53);
-    background-color: rgba(9, 18, 30, 0.779);
+    color: rgb(212, 202, 202);
+    /* background-color: rgba(9, 18, 30, 0.779); */
     transform: translateX(-220px);
     border-radius: 10px;
     size:5cm;
-
 }
 
+.search-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    height: 33px;
+    width: 38px;
+    color: white;
+    background-color: grey;
+    border-radius: 25px;
+    line-height: 0; /* Reset line height for precise centering */
+    vertical-align: middle; /* Align icon vertically */
+    text-align: center; /* Align text inside the element */
+}
 
